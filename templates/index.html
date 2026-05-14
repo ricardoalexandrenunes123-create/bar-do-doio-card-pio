@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content=width=device-width, initial-scale=1.0>
-    <title>Bar do Doió 🍺</title>
-     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar do Doió 🍻</title>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
+
 <body>
 
+    <div class="container">
 
-    <h1>Bar do Doió 🍺</h1>
-    <p>Bem-vindo ao nosso cardápio!</p>
+        <h1>Bar do Doió 🍻</h1>
+        <p class="subtitulo">Bem-vindo ao nosso cardápio digital!</p>
 
-    <h2>🍻 Bebidas</h2>
-    <ul>
-        <li>Cerveja - R$ 8,00</li>
-        <li>Refrigerante - R$ 5,00</li>
-        <li.Água - R$ 3,00</li>
-</ul>
+        <!-- BEBIDAS -->
+        <h2>🥤 Bebidas</h2>
 
-     <h2>🍔 Porções</h2>
-     <ul>
-         <li>Batata Frita - R$ 20,00</li>
-         <liCalabresa - R$25,00</li>
-     </ul>
+        <ul>
+            <li>Coca-Cola - R$ 6,00</li>
+            <li>Suco de Laranja - R$ 12,50</li>
+            <li>Água de Coco - R$ 12,00</li>
+            <li>Água Mineral com Gás - R$ 10,00</li>
+            <li>Água Mineral - R$ 15,00</li>
+        </ul>
 
+        <!-- SALGADOS -->
+        <h2>🥟 Salgados</h2>
+
+        <ul>
+            <li>Coxinha de Frango com Requeijão - R$ 8,00</li>
+        </ul>
+
+        <!-- LANCHES -->
+        <h2>🥪 Lanches</h2>
+
+        <ul>
+            <li>Pastel - R$ 10,50</li>
+        </ul>
+
+        <div class="footer">
+            <p>📲 Escaneie o QR Code para acessar nosso cardápio</p>
+            <p>🍻 Bar do Doió - Obrigado pela preferência!</p>
+        </div>
+
+    </div>
 
 </body>
+
 </html>
